@@ -1,0 +1,6 @@
+framework module FFComponent_NetAPIKit {
+  umbrella header "FFComponent_NetAPIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
