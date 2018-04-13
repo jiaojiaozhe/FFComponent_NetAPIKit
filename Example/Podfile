@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFComponent_NetAPIKit_Example' do
+  pod 'FFComponent_NetAPIKit', :path => '../'
+
+  target 'FFComponent_NetAPIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
